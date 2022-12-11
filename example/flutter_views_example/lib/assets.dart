@@ -1,0 +1,9 @@
+const image1 = "assets/algeria.jpg";
+const image2 = "assets/beach.jpg";
+const image3 = "assets/desert.jpg";
+const image4 = "assets/el oued.jpg";
+const image5 = "assets/nature.jpg";
+const image6 = "assets/neige.jpg";
+const image7 = "assets/oran.jpg";
+const image8 = "assets/wahran.jpg";
+const image9 = "assets/sunset.jpg";

@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_views/View.dart';
 import 'package:flutter_views/flutter_views.dart';
+import 'package:flutter_views_example/assets.dart';
 
 void main() {
   runApp(const MyApp());
@@ -28,9 +30,20 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
+  List<View> views = [];
   @override
   void initState() {
-    // TODO: implement initState
+    views = [
+      View(image: image1, id: 1),
+      View(image: image2, id: 2),
+      View(image: image3, id: 3),
+      View(image: image4, id: 4),
+      View(image: image5, id: 5),
+      View(image: image6, id: 6),
+      View(image: image7, id: 7),
+      View(image: image8, id: 8),
+      View(image: image9, id: 9),
+    ];
     super.initState();
   }
 
@@ -44,7 +57,7 @@ class _MyHomePageState extends State<MyHomePage> {
               spacing: 2,
               shape: BoxShape.circle,
               border: BorderRadius.circular(20),
-              views: [],
+              views: views,
             )),
       ),
     );
